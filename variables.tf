@@ -1,8 +1,10 @@
 variable "public_key_path" {
-type = "string"
+default = "test"
+  type = "string"
 }
 
 variable "key_name" {
+  default = "mark-aws-key"
   type = "string"
 }
 
