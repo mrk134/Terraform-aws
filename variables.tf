@@ -1,5 +1,5 @@
 variable "public_key_path" {
-default = "test"
+default = "/opt/test.pem"
   type = "string"
 }
 
